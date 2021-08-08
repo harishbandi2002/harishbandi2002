@@ -1,0 +1,5 @@
+15)
+Write a program to find the Maximum Sum by considering any 9 out of 10 values.
+The number of Arguments is 10.
+Test Values: 4 2 5 8 9 10 12 14 16 30
+o/p:  Maximum 9 numbers is 108
