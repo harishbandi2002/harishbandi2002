@@ -1,0 +1,25 @@
+12.Write a program to initialize an integer array with the command line arguments and print the sum and average of the array.
+
+The number of Arguments is limited to maximum of 10.
+
+public class Main
+{
+public static void main(String[] args) {
+int [] myvar= new int[args.length];
+int i=0;
+for (String s: args)
+{
+myvar[i]=Integer.parseInt(s);
+i++;
+}
+int sum=0;
+float average;
+for(i=0;i<myvar.length;i++)
+{
+sum=sum+myvar[i];
+}
+average=sum/myvar.length;
+System.out.println("sum = "+sum);
+System.out.println("average = "+average);
+}
+}
